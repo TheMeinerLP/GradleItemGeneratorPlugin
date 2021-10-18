@@ -9,4 +9,5 @@ data class Item(val fileName: String,
                 val name: String,
                 val lore: List<String>,
                 val amount: Int,
-                val material: String)
+                val material: String,
+                var meta: ItemMeta?)
